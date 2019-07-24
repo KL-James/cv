@@ -34,7 +34,7 @@
         bindEvents: function(){    
             this.form.addEventListener('submit', function(e){
                 e.preventDefault()
-                this.saveMessage()
+                this.savemessage()
             })
         },
         saveMessage: function(){
